@@ -30,7 +30,7 @@ li{
         @apply flex flex-col justify-center items-center mr-6 ml-6 p-10
     }
     .footerheader{
-        @apply flex flex-col justify-center  mr-0 ml-0 p-10 w-full text-center
+        @apply flex flex-col justify-center  mr-0 ml-0 p-2 w-full text-center
 
     }
     .buttomfooter{

@@ -29,7 +29,7 @@ export default function Nav() {
     // }, []);
 
     return (
-        <div className="h-20 bg-grey-500 shadow-2xl  w-full flex flex-row justify-between items-center">
+        <div className="h-20 bg-grey-500 shadow-2xl z-30  w-full flex flex-row justify-between items-center">
             <div className="image ml-6">
                 <img src={logo} className={styles.logo} alt="logo"></img>
             </div>

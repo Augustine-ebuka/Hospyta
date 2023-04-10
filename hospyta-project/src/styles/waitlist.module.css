@@ -74,6 +74,7 @@
         transition: ease-in-out 0.7s ;
         @apply text-gray-600 leading-8 p-3 text-center w-auto mt-1;
     }
+   
     .right{
 
         flex: 1;
@@ -90,7 +91,6 @@
         color: #4425F5;
     }
     .image{
-        width: calc(100%-30%);
         height: calc(100%-30%);
         bottom: 0px;
         position:unset;
