@@ -1,0 +1,19 @@
+.partnerscontainer{
+    background-color: #ffff;
+    background-image: url('../assets/Group.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    @apply flex justify-center items-center;
+    height: auto;
+}
+.partnerscardcontainer{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   object-fit: contain;
+}
+.partnersimage{
+    width: 60%;
+}

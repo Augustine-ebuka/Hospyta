@@ -1,0 +1,40 @@
+.testimonialcontainer{
+    background-color: #ffff;
+    background-image: url('../assets/Group.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    @apply flex justify-center items-center;
+}
+.testimonialcardcontainer{
+   display: grid;
+   grid-template-columns:repeat(2, minmax(100px,200px)) ;
+   justify-content: space-around;
+   align-self: center;
+   width: 70%;
+   row-gap: 10px;
+}
+.testimonialitems{
+    border: 1px dashed grey;
+    border-radius: 12px;
+    padding: 1px;
+}
+.testimonialitems:nth-child(even){
+    border:none;
+}
+
+@media screen and (max-width:750px){
+    .testimonialcontainer{
+        margin-top: 100px;
+    }
+    .testimonialcardcontainer{
+        display: grid;
+        grid-template-columns:repeat(1, minmax(100px,auto)) ;
+    }
+    .testimonialitems{
+        grid-column: 1;
+    }
+    .testimonialitems:nth-child(even){
+        margin-bottom: 30px;
+    }
+}

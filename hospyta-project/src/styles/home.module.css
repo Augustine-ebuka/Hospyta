@@ -1,0 +1,93 @@
+.hero-container{
+    padding: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height:auto;
+    background-image: url('../assets/blur-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow-y: hidden;
+
+}
+ .left{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+   padding-right: 20px;
+}
+.body{
+    @apply ml-20 mt-10
+}
+.right{
+    flex: 1;
+    margin-right: 50px;
+}
+
+.header{
+    @apply text-5xl text-gray-800 font-semibold w-10/12;
+}
+
+.content{
+    @apply mt-2 mb-4 w-2/3 text-gray-400;
+}
+
+.image{
+    min-height: 500px;
+    width: calc(100%-10);
+    height: calc(100%-10);
+}
+.joinbtn{
+    display: none;
+}
+    
+    
+    @media screen and (max-width:750px){
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            height: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .left{
+            @apply flex justify-center items-center mr-0 p-0;
+
+        }
+        .body{
+            @apply flex flex-col justify-center items-center ml-0 mt-10 w-full
+        }
+        .header{
+        font-size: 34px;
+        @apply font-bold text-center m-auto pb-6  animate-bounce;
+        
+    }
+    .content{
+        transition: ease-in-out 0.7s ;
+        @apply text-center text-base  m-auto pb-5 w-9/12 animate-bounce;
+    }
+    .right{
+        @apply flex justify-center m-0;
+    }
+    .btncover{
+        @apply flex justify-center mt-4;
+    }
+    .colorblue{
+        color: #4425F5;
+    }
+    .image{
+        margin: auto;
+        padding-top: 50px;
+        width: 80%;
+    }
+    .joinbtn{
+        display: block;
+        @apply rounded-full bg-blue-50 w-6/12 h-10 text-sm pt-2 font-light text-center mt-9 mb-8;
+    }
+}
+    

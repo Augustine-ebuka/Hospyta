@@ -1,0 +1,30 @@
+.sponsorcontainer{
+    background-image: url('../assets/blur-bg-2.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.sponsorcard{
+    @apply flex justify-center items-center gap-8 p-4;
+    
+}
+.sponsoricon{
+    width: 151px;
+}
+@media (max-width: 768px){
+    .sponsorcard{
+        @apply flex flex-col justify-center gap-1 m-auto p-0
+    }
+    .sponsorcontainer{
+        background-image: url('../assets/phone-bg.png');
+        background-size: cover;
+        background-position:left;
+        height: auto;
+        backdrop-filter: blur(20px);
+    }
+
+}

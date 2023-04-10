@@ -1,0 +1,101 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height:auto;
+    object-fit: cover;
+
+}
+ .left{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+   padding-right: 20px;
+}
+.btncover{
+    @apply mb-8;
+}
+.body{
+    @apply ml-20 mt-10
+}
+.right{
+
+    flex: 1;
+    position: relative;
+    right: 0;
+    bottom: 100px;
+}
+
+.header{
+    @apply text-5xl text-gray-800 font-semibold w-10/12 leading-snug;
+}
+
+.content{
+    @apply text-gray-400 leading-8 w-2/3 mt-6;
+}
+
+.image{
+    min-height: 500px;
+    width: calc(100%-30);
+    height: calc(100%-30);
+    bottom: 0px;
+    position:absolute;
+    bottom:-100px;
+}
+
+
+@media screen and (max-width:750px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        height: auto;
+    }
+    .left{
+        order: 2;
+        @apply flex justify-center items-center mr-0 p-0;
+        background-image: url('../assets/phone-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        
+    }
+    .body{
+        @apply ml-0 mt-10 w-full
+    }
+    .header{
+        font-size: 34px;
+        @apply font-bold text-center m-auto pb-3  animate-bounce;
+        
+    }
+    .content{
+        transition: ease-in-out 0.7s ;
+        @apply text-gray-600 leading-8 p-3 text-center w-auto mt-1;
+    }
+    .right{
+
+        flex: 1;
+        position: none;
+        right: none;
+        bottom: 0px;
+        background-image: url('../assets/phone-bg.png')
+    }
+    
+    .btncover{
+        @apply flex justify-center mt-4 ;
+    }
+    .colorblue{
+        color: #4425F5;
+    }
+    .image{
+        width: calc(100%-30%);
+        height: calc(100%-30%);
+        bottom: 0px;
+        position:unset;
+        margin-top: 20px;
+}
+    
+
+}

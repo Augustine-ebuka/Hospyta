@@ -1,0 +1,47 @@
+{
+    "info":[
+        {
+            "id":1,
+            "header":"Top rated Service",
+            "content":"We aim to take everything “healthcare” online, making healthcare-related services and products conveniently accessible to everyone, including healthcare and non-healthcare participants.",
+            "icon": "/images/choose1.png"
+        },
+
+    
+        {
+            "id":2,
+            "header":"Advanced security",
+            "content":"The HOSPYTA platform and services are convenient, user friendly and intuitive, with all-year-round assistance and support.",
+            "icon":  "/images/choose2.png"
+
+        },
+        {
+            "id":3,
+            "header":"Excellent customer Supports",
+            "content":"The HOSPYTA platform and services are convenient, user friendly and intuitive, with all-year-round assistance and support.           ",
+            "icon":  "/images/choose3.png"
+
+        },
+        {
+            "id":4,
+            "header":"Robust access to Professionals",
+            "content":"You can book appointments with a large network of registered professionals, consultants or  Physiotherapists and Dietitians. We enable easy referrals and medical second opinions securely transferring your files and medical record where you need them to go.",
+            "icon":  "/images/choose4.png"
+
+        },
+        {
+            "id":5,
+            "header":"Interoperability and convenience",
+            "content":"Our HOSPYTA Mobile App provides you with everything you need to get started with your health. We connect you with with Insurance, labs, Ambulance services and your community health networks. So, your healthcare data remain accessible to who you want to share them with.",
+            "icon":  "/images/choose5.png"
+
+        },
+        {
+            "id":6,
+            "header":"Unique experience",
+            "content":"At HOSPYTA, we are on a mission to serve as a first-hand knowledge-based system for healthcare and leader in healthcare innovative technology. You can trust us to provide you with highly personalized and futuristic experience that you need.",
+            "icon":  "/images/choose6.png"
+
+        }
+    ]
+}

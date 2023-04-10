@@ -1,0 +1,9 @@
+.btn{
+    background: linear-gradient(90deg,#5472DC, #4425F5);
+    border-radius: 2px;
+    color: #f2f2f2;
+    font-weight: 500;
+    cursor: pointer;
+    @apply h-9 text-center w-40 shadow-sm pt-1 shadow-slate-600;
+
+}

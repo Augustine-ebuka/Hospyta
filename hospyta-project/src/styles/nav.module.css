@@ -1,0 +1,18 @@
+.btn{
+    background: linear-gradient(90deg,#5472DC, #4425F5);
+    border-radius: 2px;
+    color: #f2f2f2;
+    font-weight: 500;
+    cursor: pointer;
+    @apply h-9 text-center w-40 mr-6 shadow-stone-500;
+}
+
+.activeBtn{
+    display: block;
+}
+.nonActiveBtn{
+    display: none !important;
+}
+.logo{
+    height: 65px;
+}

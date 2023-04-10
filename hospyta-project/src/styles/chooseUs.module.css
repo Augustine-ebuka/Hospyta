@@ -1,0 +1,31 @@
+.choosuswrapper{
+    background:linear-gradient(90deg, #E4F5FF,#FCFDFE)
+}
+.chooseus{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,300px));
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Poppins';
+    padding-bottom: 30px;
+}
+.choosecard{
+    @apply flex flex-col justify-center items-center
+}
+
+@media (max-width: 768px){
+    .choosuswrapper{
+        background:#FCFDFE
+    }
+    .chooseus{
+        display: grid;
+        grid-template-columns: repeat(1,minmax(300px,400px));
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .choosecard{
+        width: 80%;
+        margin: auto;
+    }
+}
