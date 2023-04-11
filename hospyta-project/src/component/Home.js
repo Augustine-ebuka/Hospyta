@@ -11,17 +11,22 @@ import Sponsor from './Sponsor';
 import Waitlist from './Waitlist';
 import Partners from './Partners';
 import Footer from './Footer';
-
+import { FaArrowRight} from 'react-icons/fa';
+import '../styles/home.module.css';
+import ScrollToTop from "react-scroll-to-top";
 
 export default function Home() {
   return (
-      <>
+    <>
           <div className={styles.container}>
                 <div className={styles.left}>
                   {/* <div className={styles.gradientBall}></div> */}
                     <div className={styles.body}>
                       <div className={styles.joinbtn}>
-                          <p className='pt-1'> join our Waitlist</p>
+              <p className='inline'> join our Waitlist
+              
+              </p>
+              <FaArrowRight className='float-right h-6 w-6 clear-left mr-2' />
                       </div>
                         <div className={styles.header}>
                             Accelerating healthcare Accessibility with <span className={styles.colorblue}> state 
@@ -66,8 +71,12 @@ export default function Home() {
           {/* partners section */}
           <Partners></Partners>
 
+     
           {/* footer section */}
-          <Footer></Footer>
+      <Footer></Footer>
+
+      {/*  scroll to the bottom*/}
+      <ScrollToTop smooth='true'  style={{padding:4}} height='30' width='30' viewBox='0 0 256 256'/>
       </>
   )
 }

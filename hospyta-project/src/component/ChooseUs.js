@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../styles/chooseUs.module.css'
-import customer from '../assets/choose1.png';
 import choosusedata from './chooseUsdata.json';
 
 export default function ChooseUs() {

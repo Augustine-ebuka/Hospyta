@@ -4,6 +4,7 @@ import hand from '../assets/hand.png'
 import Button from './Button';
 import { Link } from 'react-router-dom';
 
+
 export default function Waitlist() {
   return (
     <>
@@ -19,7 +20,7 @@ export default function Waitlist() {
                   </div>
                 <div className={styles.btncover}>
                     <Link to='#'>
-                      <Button>Join our waitlist </Button>
+                      <Button>Join the waitlist</Button>
                     </Link>
                   </div>
               </div>

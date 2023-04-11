@@ -28,13 +28,16 @@
 }
 
 .header{
-    @apply text-5xl text-gray-800 font-semibold w-10/12;
+    @apply text-5xl text-gray-800 mb-10 font-semibold w-10/12;
 }
 
 .content{
-    @apply mt-2 mb-4 w-2/3 text-gray-400;
+    @apply mt-2 -mb-1 w-2/3 text-gray-500;
 }
-
+.btncover{
+    margin-top: 50px;
+    background-color: red;
+}
 .image{
     min-height: 500px;
     width: calc(100%-10);
@@ -42,9 +45,10 @@
 }
 .joinbtn{
     display: none;
+
 }
     
-    
+ 
     @media screen and (max-width:750px){
         .container{
             display: flex;
@@ -86,8 +90,9 @@
         width: 80%;
     }
     .joinbtn{
-        display: block;
-        @apply rounded-full bg-blue-50 w-6/12 h-10 text-sm pt-2 font-light text-center mt-9 cursor-pointer mb-8 animate-ping;
+        display: inline-block;
+        
+        @apply rounded-full bg-blue-50 w-6/12 h-10 text-sm pt-2 font-light text-center mt-9 cursor-pointer mb-8;
     }
 }
     
