@@ -6,13 +6,14 @@ import fb from '../assets/fb.png';
 import insta from '../assets/insta.png'; 
 import linkedin from '../assets/linkedin.png'; 
 import { Link } from 'react-router-dom';
+import DownloadLink from './DownloadTest';
 
 export default function Footer() {
   return (
       <div className={styles.footercontainer}>
           <div className={styles.footerwrapper}>
               <div className={styles.topfooter}>
-                  <h2 className={styles.footerheader}>ALL your health care services in one place</h2>
+                  <h2 className={styles.footerheader}>All your health care services in one place</h2>
                   <div className=' p-5'>
                       <Button>Join our wailist</Button>
                   </div>
@@ -25,18 +26,18 @@ export default function Footer() {
                         convenience, while leveraging the digital and innovative changes
                           of the healthcare industry.</p>
                       <div className='p-5 flex gap-3'>
-                         <Link to='/'> <img src={twitter} alt='' /> </Link>
-                         <Link to=''> <img src={fb} alt='' /> </Link>
-                         <Link to=''> <img src={insta} alt='' /> </Link>
-                         <Link to=''> <img src={linkedin} alt='' /> </Link>
+                         <Link to='#'> <img src={twitter} alt='' /> </Link>
+                         <Link to='https://web.facebook.com/hospyta'> <img src={fb} alt='' /> </Link>
+                         <Link to='#'> <img src={insta} alt='' /> </Link>
+                         <Link to='https://www.linkedin.com/company/hospyta'> <img src={linkedin} alt='' /> </Link>
                       </div>
                   </div>
                   <div className={styles.links}>
                       <div>
                           <p className='font-bold mb-4'>Company</p>
                           <ul>
-                              <li>Terms & Condition</li>
-                              <li>Privacy & Policy</li>
+                              <Link><li><DownloadLink fileUrl="/images/policy.pdf" fileName="Policy" /></li></Link>
+                              <Link><li><DownloadLink fileUrl="/images/terms.pdf" fileName="Terms" /></li></Link> 
                           </ul>
                       </div>
                       <div>

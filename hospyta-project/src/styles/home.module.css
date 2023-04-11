@@ -11,6 +11,8 @@
     background-repeat: no-repeat;
     object-fit: cover;
     overflow-y: hidden;
+    margin-top: 20px;
+    z-index: -1;
 
 }
  .left{
@@ -28,20 +30,20 @@
 }
 
 .header{
-    @apply text-5xl text-gray-800 mb-10 font-semibold w-10/12;
+    font-family: 'Axiforma ExtraBold';
+    @apply text-5xl text-gray-800 mb-10 font-semibold w-10/12 leading-snug;
 }
 
 .content{
+    font-family: 'Gotham';
     @apply mt-2 -mb-1 w-2/3 text-gray-500;
 }
 .btncover{
     margin-top: 50px;
-    background-color: red;
 }
 .image{
-    min-height: 500px;
-    width: calc(100%-10);
-    height: calc(100%-10);
+    max-height: 550px;
+
 }
 .joinbtn{
     display: none;
@@ -92,7 +94,7 @@
     .joinbtn{
         display: inline-block;
         
-        @apply rounded-full bg-blue-50 w-6/12 h-10 text-sm pt-2 font-light text-center mt-9 cursor-pointer mb-8;
+        @apply rounded-full bg-blue-50 w-6/12 h-10 text-sm pt-2 font-light text-center mt-9 cursor-pointer mb-8 accent-indigo-200 shadow-xl animate-ping;
     }
 }
     

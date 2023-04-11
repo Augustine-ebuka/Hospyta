@@ -8,7 +8,7 @@ export default function Youtube() {
       <>
           <div className={styles.youtubecontainer}>
               <div className={styles.youtubecard}>
-                  <Link>
+                  <Link to='https://www.youtube.com/@hospyta'>
                     <img src={youtube} className={styles.image} alt='youtube card' /> 
                   </Link>
               </div>

@@ -1,4 +1,5 @@
 .choosuswrapper{
+    font-family: 'Gotham';
     background:linear-gradient(90deg, #E4F5FF,#FCFDFE)
 }
 .chooseus{
@@ -8,8 +9,10 @@
     gap: 20px;
     font-family: 'Poppins';
     padding-bottom: 30px;
+    font-family: inherit;
 }
 .choosecard{
+    font-family: inherit;
     @apply flex flex-col justify-center items-center
 }
 

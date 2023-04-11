@@ -17,7 +17,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 export default function Home() {
   return (
-    <>
+    <>    
           <div className={styles.container}>
                 <div className={styles.left}>
                   {/* <div className={styles.gradientBall}></div> */}
@@ -46,7 +46,7 @@ export default function Home() {
                 </div>
                 <div className={styles.right}>
                     <div className='' style={{}}>
-                        <img src={woman} className={styles.image} alt='woman'></img>
+                        <img loading='lazy' src={woman} className={styles.image} alt='woman'></img>
                     </div>
                 </div>
           </div>
@@ -76,7 +76,7 @@ export default function Home() {
       <Footer></Footer>
 
       {/*  scroll to the bottom*/}
-      <ScrollToTop smooth='true'  style={{padding:4}} height='30' width='30' viewBox='0 0 256 256'/>
+      <ScrollToTop smooth style={{padding:4}} height='30' width='30' viewBox='0 0 256 256'/>
       </>
   )
 }

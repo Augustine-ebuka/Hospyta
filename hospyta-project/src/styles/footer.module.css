@@ -23,6 +23,7 @@ li{
     @apply   text-gray-500 mb-2
 }
 .footerheader{
+    font-family: 'Axiforma ExtraBold';
     @apply font-bold text-4xl w-1/2 p-5
 }
 @media (max-width:760px){

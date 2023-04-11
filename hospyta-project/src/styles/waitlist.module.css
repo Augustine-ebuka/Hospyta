@@ -66,6 +66,7 @@
         @apply ml-0 mt-10 w-full
     }
     .header{
+        font-family: 'Axiforma ExtraBold';
         font-size: 34px;
         @apply font-bold text-center m-auto pb-3  animate-bounce;
         

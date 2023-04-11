@@ -13,7 +13,7 @@ export default function Testimonial() {
                   <img src={doctor} className='border-dotted' alt='' />
               </div>
               <div className={styles.testimonialitems}>
-                  <h1 className='font-semibold text-transparent text-center text-7xl bg-clip-text bg-gradient-to-r from-red-600 to-blue-600'>94+</h1>
+                  <h1 className='font-bold  text-transparent text-center text-6xl bg-clip-text bg-gradient-to-r from-red-600 to-blue-600'>94+</h1>
                   <h3 className='text-1xl text-slate-900 text-center'>Certified Doctors</h3>
                   <p className='text-sm text-slate-400 text-center'> skilled and caring </p>
               </div>
@@ -22,7 +22,7 @@ export default function Testimonial() {
                   <img src={customer} alt='' />
               </div>
               <div  className={styles.testimonialitems}>
-              <h1 className='font-semibold   text-transparent text-center text-7xl bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600'>97.5%</h1>
+              <h1 className='font-bold   text-transparent text-center text-6xl bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600'>97.5%</h1>
                   <h3 className='text-1xl text-slate-900 text-center'>Postive Feedback</h3>
                   <p className='text-sm text-slate-400 text-center'> From our patients</p>
               </div>
@@ -32,7 +32,7 @@ export default function Testimonial() {
               </div>
 
               <div  className={styles.testimonialitems}>
-              <h1 className='font-semibold text-transparent text-center text-7xl bg-clip-text bg-gradient-to-r from-yellow-600 to-blue-600'>2800+</h1>
+              <h1 className='font-bold  text-transparent text-center text-6xl bg-clip-text bg-gradient-to-r from-yellow-600 to-blue-600'>2800+</h1>
                   <h3 className='text-1xl text-slate-900 text-center'>Online Consultations</h3>
                   <p className='text-sm text-slate-400 text-center'> Delivered across the world </p>
               </div>
